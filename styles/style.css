@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 nav{
     display: flex;
@@ -165,14 +167,15 @@ color: #131313;
     width: 45.22px;
     height: 45.22px;   
 }
+
 .contact{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 .from-info{
     padding: 55px 10px;
-    font-size: 30px;
-    font-weight: 400px;
+    font-size: 20px;
+    font-weight: 200px;
 }
 
 .footer{
@@ -196,8 +199,8 @@ nav ul{
 }
 .container{
     width:100%;
-    padding: 30px;
-    margin-top: 21px;
+    padding: 10px;
+    margin-top: 10px;
     margin: 0 auto;
  
 }
@@ -252,5 +255,10 @@ background: rgb(239, 227, 227);
 .customer:hover{
     background: rgb(245, 110, 110);
 
+    
+}
+.contact{
+    
+    grid-template-columns: repeat(1,1fr);
 }
 }
