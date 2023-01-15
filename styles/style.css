@@ -121,6 +121,7 @@ border-radius: 8px;
     position: absolute;
      background-color: #ff900e;
   border-radius: 5px;
+  border: 1px solid #fff;
   color: white;
   padding: 45px 32px;
   text-align: center;
@@ -181,6 +182,8 @@ color: #131313;
     border-radius: 5px;
     text-align: center;
 }
+
+/* mobile responsive */
 
 @media screen and (max-width: 557px) {
   nav{
