@@ -261,4 +261,8 @@ background: rgb(239, 227, 227);
     
     grid-template-columns: repeat(1,1fr);
 }
+.from-info{
+    padding: 5px 10px;
+  
+}
 }
